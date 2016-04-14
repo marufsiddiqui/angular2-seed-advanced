@@ -1,0 +1,34 @@
+{
+  "name": "nativescript-ng2-translate",
+  "version": "1.0.5",
+  "description": "Use ng2-translate with NativeScript + Angular2.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NathanWalker/nativescript-ng2-translate.git"
+  },
+  "keywords": [
+    "angular2",
+    "ng2",
+    "ng2-translate",
+    "i18n",
+    "nativescript"
+  ],
+  "author": {
+    "name": "NathanWalker",
+    "email": "NathanWalker"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NathanWalker/nativescript-ng2-translate/issues"
+  },
+  "homepage": "https://github.com/NathanWalker/nativescript-ng2-translate#readme",
+  "scripts": {
+    "build": "tsc"
+  },
+  "readme": "[![Angular 2 Style Guide](https://mgechev.github.io/angular2-style-guide/images/badge.svg)](https://github.com/mgechev/angular2-style-guide)\n[![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)\n[![Dependency Status](https://david-dm.org/preboot/angular2-library-seed/status.svg)](https://david-dm.org/preboot/angular2-library-seed#info=dependencies) [![devDependency Status](https://david-dm.org/preboot/angular2-library-seed/dev-status.svg)](https://david-dm.org/preboot/angular2-webpack#info=devDependencies)\n\n* [Install](#install)\n* [Usage](#usage)\n* [Why the `TNS` prefixed name?](#why-the-tns-prefixed-name)\n* [Accolades](#accolades)\n\n## Install\n\n```\nnpm install nativescript-ng2-translate --save\n```\n\n## Usage\n\n#### 1. Add locale translation files\n\nYou can create these anywhere in your app but let's say you create an `assets` folder and in that an `i18n` folder so:\n\n* `app/assets/i18n` folder\n\nThen in there, create translation files, for example:\n\n* `en.json` (English):\n```\n{\n  \"HOME\": \"Home\"\n}\n```\n\n* `es.json` (Spanish):\n```\n{\n  \"HOME\": \"Casa\"\n}\n```\n\n#### 2. Setup NativeScript/Angular\n\n* `app.ts`:\n\n```\nimport {nativeScriptBootstrap} from 'nativescript-angular/application';\n\n// angular \nimport {Component, provide} from 'angular2/core';\nimport {HTTP_PROVIDERS} from 'angular2/http';\n\n// libs\nimport {TranslateLoader, TranslateService, TranslatePipe} from 'ng2-translate/ng2-translate';\nimport {TNSTranslateLoader} from 'nativescript-ng2-translate/nativescript-ng2-translate';\n\n@Component({\n  selector: 'app',\n  template: `\n  <StackLayout>\n    <Label [text]=\"'HOME' | translate\"></Label>\n  </StackLayout>\n  `,\n  pipes: [TranslatePipe]\n})\nclass TestComponent {}\n\nnativeScriptBootstrap(TestComponent, [\n  HTTP_PROVIDERS,\n  provide(TranslateLoader, {\n    useFactory: () => {\n      // pass in the path to your locale files\n      return new TNSTranslateLoader('assets/i18n');\n    }\n  }),\n  TranslateService\n]);\n```\n\n## Why the TNS prefixed name?\n\n`TNS` stands for **T**elerik **N**ative**S**cript\n\niOS uses classes prefixed with `NS` (stemming from the NextStep days of old):\nhttps://developer.apple.com/library/mac/documentation/Cocoa/Reference/Foundation/Classes/NSString_Class/\n\nTo avoid confusion with iOS native classes, `TNS` is used instead.\n\n## Accolades\n\n* Project using this library [angular2-seed-advanced](https://github.com/NathanWalker/angular2-seed-advanced)\n* [Olivier Combe's ng2-translate library](https://github.com/ocombe/ng2-translate)\n\n# License\n\n[MIT](/LICENSE)\n",
+  "readmeFilename": "README.md",
+  "gitHead": "63d9facb0f60264b99924b608c8aab78c8df4d40",
+  "_id": "nativescript-ng2-translate@1.0.5",
+  "_shasum": "38fafdff156e1fcc6c12228c190dfd31cfd495a3",
+  "_from": "nativescript-ng2-translate@>=1.0.5 <2.0.0"
+}

@@ -18,7 +18,6 @@
   },
   "exclude": [
     "desktop",
-    "nativescript",
     "node_modules",
     "dist",
     "typings/browser.d.ts",

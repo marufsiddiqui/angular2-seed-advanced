@@ -126,9 +126,9 @@ npm run build.prod
 ```
 npm install -g nativescript 
 
-// we set things up from the 'nativescript' directory
+// we set things up from the 'src/nativescript' directory
 // at the moment, {N} does not use the seed build
-cd nativescript  
+cd src/nativescript  
 tns install
 ```
 

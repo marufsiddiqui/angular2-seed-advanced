@@ -1,0 +1,92 @@
+{
+  "name": "ng2-translate",
+  "description": "An implementation of angular translate for Angular 2",
+  "scripts": {
+    "test": "tsc && karma start",
+    "test-watch": "tsc && karma start --no-single-run --auto-watch",
+    "commit": "npm run prepublish && npm test && git-cz",
+    "prepublish": "typings install && tsc && node make.js",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ocombe/ng2-translate.git"
+  },
+  "keywords": [
+    "angular",
+    "angular2",
+    "translate",
+    "i18n"
+  ],
+  "author": {
+    "name": "Olivier Combe"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ocombe/ng2-translate/issues"
+  },
+  "main": "ng2-translate.js",
+  "typings": "./ng2-translate.d.ts",
+  "homepage": "https://github.com/ocombe/ng2-translate",
+  "peerDependencies": {
+    "angular2": ">= 2.0.0-beta.0",
+    "es6-promise": ">= 3.0.2",
+    "es6-shim": ">= 0.33.3",
+    "reflect-metadata": ">= 0.1.2",
+    "rxjs": ">= 5.0.0-beta.0",
+    "zone.js": ">= 0.5.10"
+  },
+  "devDependencies": {
+    "angular2": "2.0.0-beta.11",
+    "commitizen": "~2.5.0",
+    "cz-conventional-changelog": "~1.1.4",
+    "es6-promise": "^3.0.2",
+    "es6-shim": "^0.35.0",
+    "jasmine-core": "~2.4.1",
+    "karma": "~0.13.15",
+    "karma-chrome-launcher": "~0.2.2",
+    "karma-firefox-launcher": "~0.1.7",
+    "karma-jasmine": "~0.3.8",
+    "karma-typescript-preprocessor": "0.0.21",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.2",
+    "semantic-release": "~4.3.5",
+    "systemjs": "~0.19.24",
+    "systemjs-builder": "^0.15.13",
+    "tsd": "^0.6.5",
+    "typescript": "^1.8.9",
+    "typings": "^0.6.8",
+    "zone.js": "^0.6.4"
+  },
+  "czConfig": {
+    "path": "node_modules/cz-conventional-changelog"
+  },
+  "version": "1.10.3",
+  "gitHead": "4a52e5025cda77cb3719f575c04b2aa34a0b5be4",
+  "_id": "ng2-translate@1.10.3",
+  "_shasum": "181caf3f6a866d785a71de5dd93978d1e8c7848c",
+  "_from": "ng2-translate@1.10.3",
+  "_npmVersion": "3.8.2",
+  "_nodeVersion": "5.9.0",
+  "_npmUser": {
+    "name": "ocombe",
+    "email": "olivier.combe@gmail.com"
+  },
+  "dist": {
+    "shasum": "181caf3f6a866d785a71de5dd93978d1e8c7848c",
+    "tarball": "http://registry.npmjs.org/ng2-translate/-/ng2-translate-1.10.3.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "ocombe",
+      "email": "olivier.combe@gmail.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/ng2-translate-1.10.3.tgz_1458484658440_0.9186792022082955"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/ng2-translate/-/ng2-translate-1.10.3.tgz",
+  "readme": "ERROR: No README data found!"
+}

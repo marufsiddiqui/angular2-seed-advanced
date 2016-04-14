@@ -1,0 +1,241 @@
+{
+  "name": "angulartics2",
+  "description": "Vendor-agnostic web analytics for Angular2 applications",
+  "homepage": "http://angulartics.github.io/",
+  "author": {
+    "name": "João Ribeiro",
+    "email": "jonnybgod@gmail.com",
+    "url": "http://github.com/JonnyBGod"
+  },
+  "contributors": [
+    {
+      "name": "Luis Farzati",
+      "email": "lfarzati@gmail.com",
+      "url": "http://github.com/luisfarzati"
+    },
+    {
+      "name": "Tim Elfelt",
+      "email": "timelf123@gmail.com",
+      "url": "https://github.com/timelf123"
+    },
+    {
+      "name": "Simon Morvan",
+      "email": "garphy@zone84.net",
+      "url": "https://github.com/morvans"
+    },
+    {
+      "name": "Corinna Cohn",
+      "email": "ccohn@fusionalliance.com"
+    },
+    {
+      "name": "Tarun Garg",
+      "email": "tarun1793@users.noreply.github.com",
+      "url": "https://github.com/tarun1793"
+    },
+    {
+      "name": "Ruben Oostinga",
+      "email": "roostinga@xebia.com",
+      "url": "https://github.com/0xR"
+    },
+    {
+      "name": "Adam Creeger",
+      "email": "adamcreeger@gmail.com",
+      "url": "https://github.com/acreeger"
+    },
+    {
+      "name": "Jan Nicklas",
+      "email": "j.nicklas@me.com",
+      "url": "https://github.com/jantimon"
+    },
+    {
+      "name": "Tomás Escobar",
+      "email": "tomasescobar@users.noreply.github.com",
+      "url": "https://github.com/tomasescobar"
+    },
+    {
+      "name": "Martin Crawford",
+      "email": "bemisguided@users.noreply.github.com",
+      "url": "https://github.com/bemisguided"
+    },
+    {
+      "name": "Contantine Kim",
+      "email": "elegantcoder@gmail.com",
+      "url": "https://github.com/elegantcoder"
+    },
+    {
+      "name": "Larry Botha",
+      "email": "larry@fixate.it",
+      "url": "https://github.com/larrybotha"
+    },
+    {
+      "name": "Justin Russell",
+      "email": "jus.russell@gmail.com",
+      "url": "https://github.com/jtrussell"
+    },
+    {
+      "name": "William Li",
+      "email": "wli@williamhli.com",
+      "url": "https://github.com/wli"
+    },
+    {
+      "name": "pcw216",
+      "email": "pwinters@rallydev.com"
+    },
+    {
+      "name": "Nhat Nguyen",
+      "email": "ndnhat@hotmail.com",
+      "url": "https://github.com/ndnhat"
+    },
+    {
+      "name": "Chris Mendis",
+      "email": "chris.mendis@gmail.com",
+      "url": "https://github.com/chrismendis"
+    },
+    {
+      "name": "Sampo Savolainen",
+      "email": "sampo.savolainen@spatineo.com",
+      "url": "https://github.com/sampov2"
+    },
+    {
+      "name": "Michał Gołębiowski",
+      "email": "m.goleb@gmail.com",
+      "url": "https://github.com/mzgol"
+    },
+    {
+      "name": "Haim Litvak",
+      "email": "haim.litvak@hp.com"
+    },
+    {
+      "name": "Hannah Fouasnon",
+      "email": "hanelifou@gmail.com",
+      "url": "https://github.com/fouasnon"
+    },
+    {
+      "name": "Martin",
+      "email": "martinlogdberg@gmail.com",
+      "url": "https://github.com/malog84"
+    },
+    {
+      "name": "tlekan",
+      "email": "tom.lekan@gmail.com",
+      "url": "https://github.com/tlekan"
+    },
+    {
+      "name": "Blake Blackshear",
+      "email": "bblackshear@nextgxdx.com",
+      "url": "https://github.com/blakeblackshear"
+    },
+    {
+      "name": "Guillermo Alcantara",
+      "email": "guillermo.alcantara@gmail.com",
+      "url": "https://github.com/eipipuz"
+    },
+    {
+      "name": "Michael Cameron Delaney",
+      "email": "michaelcamerondelaney@gmail.com",
+      "url": "https://github.com/NewMediaRoc"
+    },
+    {
+      "name": "Chris Soyars",
+      "email": "ctso@ctso.me",
+      "url": "https://github.com/ctso"
+    },
+    {
+      "name": "Fil Maj",
+      "email": "maj.fil@gmail.com",
+      "url": "https://github.com/filmaj"
+    }
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "angular2": "2.0.0-beta.11",
+    "commitizen": "~2.4.6",
+    "cz-conventional-changelog": "~1.1.4",
+    "es6-promise": "^3.0.2",
+    "es6-shim": "^0.35.0",
+    "jasmine-core": "~2.3.4",
+    "karma": "~0.13.15",
+    "karma-chrome-launcher": "~0.2.2",
+    "karma-firefox-launcher": "~0.1.7",
+    "karma-jasmine": "~0.3.6",
+    "karma-typescript-preprocessor": "0.0.21",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.2",
+    "semantic-release": "^4.3.5",
+    "systemjs": "~0.19.18",
+    "tslint": "^3.2.1",
+    "typescript": "~1.8.7",
+    "typings": "^0.6.10",
+    "zone.js": "0.6.5"
+  },
+  "bugs": {
+    "url": "http://github.com/angulartics/angulartics2/issues"
+  },
+  "scripts": {
+    "lint": "tslint ./*.ts ./src/{,*/}*.ts",
+    "test": "karma start",
+    "commit": "git-cz",
+    "prepublish": "tsc -d",
+    "postinstall": "typings install",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "main": "./index",
+  "typings": "./index",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angulartics/angulartics2.git"
+  },
+  "keywords": [
+    "angular2",
+    "ng2",
+    "angular",
+    "analytics",
+    "tracking",
+    "google analytics",
+    "google tag manager",
+    "woopra",
+    "splunk",
+    "piwik",
+    "page tracking",
+    "event tracking",
+    "scroll tracking",
+    "inspectlet"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=4.2.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  },
+  "version": "1.0.1",
+  "gitHead": "58c9a284557a26a3ab5b6757d81ec09b99dffc54",
+  "_id": "angulartics2@1.0.1",
+  "_shasum": "70be5d2552caea54b8b2f0457b9a85026ff8eca8",
+  "_from": "angulartics2@>=1.0.1 <2.0.0",
+  "_npmVersion": "2.15.2",
+  "_nodeVersion": "4.4.1",
+  "_npmUser": {
+    "name": "jonnybgod",
+    "email": "jonnybgod@gmail.com"
+  },
+  "dist": {
+    "shasum": "70be5d2552caea54b8b2f0457b9a85026ff8eca8",
+    "tarball": "http://registry.npmjs.org/angulartics2/-/angulartics2-1.0.1.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "jonnybgod",
+      "email": "jonnybgod@gmail.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/angulartics2-1.0.1.tgz_1458863869188_0.15489542647264898"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/angulartics2/-/angulartics2-1.0.1.tgz",
+  "readme": "ERROR: No README data found!"
+}

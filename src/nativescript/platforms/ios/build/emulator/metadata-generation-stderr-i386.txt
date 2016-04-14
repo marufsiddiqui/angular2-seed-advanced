@@ -1,0 +1,449 @@
+clang version 3.7.0 (tags/RELEASE_370/final)
+Target: i386-apple-darwin
+Thread model: posix
+clang Invocation:
+ "clang-tool" "-cc1" "-triple" "i386-apple-ios7.0.0" "-fsyntax-only" "-disable-free" "-disable-llvm-verifier" "-main-file-name" "umbrella.h" "-mrelocation-model" "pic" "-pic-level" "2" "-mthread-model" "posix" "-mdisable-fp-elim" "-masm-verbose" "-target-cpu" "yonah" "-target-linker-version" "242.2" "-v" "-dwarf-column-info" "-resource-dir" "../lib/clang/3.7.0" "-isysroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk" "-D" "DEBUG=1" "-I" "/Users/nathan/Documents/github/NathanWalker/angular2-seed-advanced/src/nativescript/platforms/ios/build/emulator/include" "-I" "/Users/nathan/Documents/github/NathanWalker/angular2-seed-advanced/src/nativescript/platforms/ios/internal" "-I" "/Users/nathan/Documents/github/NathanWalker/angular2-seed-advanced/src/nativescript/platforms/ios/internal/NativeScript/include" "-F/Users/nathan/Documents/github/NathanWalker/angular2-seed-advanced/src/nativescript/platforms/ios/build/emulator" "-F/Users/nathan/Documents/github/NathanWalker/angular2-seed-advanced/src/nativescript/platforms/ios/../../lib/iOS" "-Wno-unknown-pragmas" "-Wno-ignored-attributes" "-std=gnu99" "-fdebug-compilation-dir" "/Users/nathan/Documents/github/NathanWalker/angular2-seed-advanced/src/nativescript/platforms/ios/internal/metadata-generator/bin" "-ferror-limit" "0" "-fmessage-length" "0" "-stack-protector" "1" "-mstackrealign" "-fblocks" "-fimplicit-module-maps" "-fobjc-runtime=ios-7.0.0" "-fencode-extended-block-signature" "-fobjc-exceptions" "-fexceptions" "-fmax-type-align=16" "-fdiagnostics-show-option" "-x" "objective-c" "umbrella.h"
+
+ignoring nonexistent directory "/Users/nathan/Documents/github/NathanWalker/angular2-seed-advanced/src/nativescript/platforms/ios/build/emulator/include"
+ignoring nonexistent directory "/Users/nathan/Documents/github/NathanWalker/angular2-seed-advanced/src/nativescript/platforms/ios/../../lib/iOS"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/nathan/Documents/github/NathanWalker/angular2-seed-advanced/src/nativescript/platforms/ios/internal
+ /Users/nathan/Documents/github/NathanWalker/angular2-seed-advanced/src/nativescript/platforms/ios/internal/NativeScript/include
+ /Users/nathan/Documents/github/NathanWalker/angular2-seed-advanced/src/nativescript/platforms/ios/build/emulator (framework directory)
+ ../lib/clang/3.7.0/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+clang version 3.7.0 (tags/RELEASE_370/final)
+Target: i386-apple-darwin
+Thread model: posix
+clang Invocation:
+ "clang-tool" "-cc1" "-triple" "i386-apple-ios7.0.0" "-fsyntax-only" "-disable-free" "-disable-llvm-verifier" "-main-file-name" "umbrella.h" "-mrelocation-model" "pic" "-pic-level" "2" "-mthread-model" "posix" "-mdisable-fp-elim" "-masm-verbose" "-target-cpu" "yonah" "-target-linker-version" "242.2" "-v" "-dwarf-column-info" "-resource-dir" "../lib/clang/3.7.0" "-isysroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk" "-D" "DEBUG=1" "-I" "/Users/nathan/Documents/github/NathanWalker/angular2-seed-advanced/src/nativescript/platforms/ios/build/emulator/include" "-I" "/Users/nathan/Documents/github/NathanWalker/angular2-seed-advanced/src/nativescript/platforms/ios/internal" "-I" "/Users/nathan/Documents/github/NathanWalker/angular2-seed-advanced/src/nativescript/platforms/ios/internal/NativeScript/include" "-F/Users/nathan/Documents/github/NathanWalker/angular2-seed-advanced/src/nativescript/platforms/ios/build/emulator" "-F/Users/nathan/Documents/github/NathanWalker/angular2-seed-advanced/src/nativescript/platforms/ios/../../lib/iOS" "-Wno-unknown-pragmas" "-Wno-ignored-attributes" "-std=gnu99" "-fdebug-compilation-dir" "/Users/nathan/Documents/github/NathanWalker/angular2-seed-advanced/src/nativescript/platforms/ios/internal/metadata-generator/bin" "-ferror-limit" "0" "-fmessage-length" "0" "-stack-protector" "1" "-mstackrealign" "-fblocks" "-fimplicit-module-maps" "-fobjc-runtime=ios-7.0.0" "-fencode-extended-block-signature" "-fobjc-exceptions" "-fexceptions" "-fmax-type-align=16" "-fdiagnostics-show-option" "-x" "objective-c" "umbrella.h"
+
+clang -cc1 version 3.7.0 based upon LLVM 3.7.0 default target x86_64-apple-darwin15.4.0
+ignoring nonexistent directory "/Users/nathan/Documents/github/NathanWalker/angular2-seed-advanced/src/nativescript/platforms/ios/build/emulator/include"
+ignoring nonexistent directory "/Users/nathan/Documents/github/NathanWalker/angular2-seed-advanced/src/nativescript/platforms/ios/../../lib/iOS"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/nathan/Documents/github/NathanWalker/angular2-seed-advanced/src/nativescript/platforms/ios/internal
+ /Users/nathan/Documents/github/NathanWalker/angular2-seed-advanced/src/nativescript/platforms/ios/internal/NativeScript/include
+ /Users/nathan/Documents/github/NathanWalker/angular2-seed-advanced/src/nativescript/platforms/ios/build/emulator (framework directory)
+ ../lib/clang/3.7.0/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+In file included from umbrella.h:787:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WatchConnectivity.h:12:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCError.h:13:42: error: pasting formed '__IPHONE_9.0', an invalid preprocessing token
+WC_EXTERN NSString * const WCErrorDomain NS_AVAILABLE_IOS(9.0);
+                                         ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h:251:32: note: expanded from macro 'NS_AVAILABLE_IOS'
+#define NS_AVAILABLE_IOS(_ios) CF_AVAILABLE_IOS(_ios)
+                               ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFAvailability.h:61:76: note: expanded from macro 'CF_AVAILABLE_IOS'
+#define CF_AVAILABLE_IOS(_ios) __OSX_AVAILABLE_STARTING(__MAC_NA, __IPHONE_##_ios)
+                                                                           ^
+In file included from umbrella.h:787:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WatchConnectivity.h:12:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCError.h:13:41: error: expected ';' after top level declarator
+WC_EXTERN NSString * const WCErrorDomain NS_AVAILABLE_IOS(9.0);
+                                        ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCError.h:34:3: error: pasting formed '__IPHONE_9.0', an invalid preprocessing token
+} NS_ENUM_AVAILABLE_IOS(9.0);
+  ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h:259:37: note: expanded from macro 'NS_ENUM_AVAILABLE_IOS'
+#define NS_ENUM_AVAILABLE_IOS(_ios) CF_ENUM_AVAILABLE_IOS(_ios)
+                                    ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFAvailability.h:86:37: note: expanded from macro 'CF_ENUM_AVAILABLE_IOS'
+#define CF_ENUM_AVAILABLE_IOS(_ios) CF_AVAILABLE_IOS(_ios)
+                                    ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFAvailability.h:61:76: note: expanded from macro 'CF_AVAILABLE_IOS'
+#define CF_AVAILABLE_IOS(_ios) __OSX_AVAILABLE_STARTING(__MAC_NA, __IPHONE_##_ios)
+                                                                           ^
+In file included from umbrella.h:787:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WatchConnectivity.h:12:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCError.h:34:29: error: expected ';' after top level declarator
+} NS_ENUM_AVAILABLE_IOS(9.0);
+                            ^
+In file included from umbrella.h:787:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WatchConnectivity.h:13:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h:30:1: error: pasting formed '__IPHONE_9.0', an invalid preprocessing token
+NS_CLASS_AVAILABLE_IOS(9.0)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h:296:38: note: expanded from macro 'NS_CLASS_AVAILABLE_IOS'
+#define NS_CLASS_AVAILABLE_IOS(_ios) NS_CLASS_AVAILABLE(NA, _ios)
+                                     ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h:288:79: note: expanded from macro 'NS_CLASS_AVAILABLE'
+#define NS_CLASS_AVAILABLE(_mac, _ios) __attribute__((visibility("default"))) NS_AVAILABLE(_mac, _ios)
+                                                                              ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h:249:34: note: expanded from macro 'NS_AVAILABLE'
+#define NS_AVAILABLE(_mac, _ios) CF_AVAILABLE(_mac, _ios)
+                                 ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFAvailability.h:59:82: note: expanded from macro 'CF_AVAILABLE'
+#define CF_AVAILABLE(_mac, _ios) __OSX_AVAILABLE_STARTING(__MAC_##_mac, __IPHONE_##_ios)
+                                                                                 ^
+In file included from umbrella.h:787:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WatchConnectivity.h:13:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h:30:1: error: unknown type name '__AVAILABILITY_INTERNAL__IPHONE_'
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h:296:38: note: expanded from macro 'NS_CLASS_AVAILABLE_IOS'
+#define NS_CLASS_AVAILABLE_IOS(_ios) NS_CLASS_AVAILABLE(NA, _ios)
+                                     ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h:288:79: note: expanded from macro 'NS_CLASS_AVAILABLE'
+#define NS_CLASS_AVAILABLE(_mac, _ios) __attribute__((visibility("default"))) NS_AVAILABLE(_mac, _ios)
+                                                                              ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h:249:34: note: expanded from macro 'NS_AVAILABLE'
+#define NS_AVAILABLE(_mac, _ios) CF_AVAILABLE(_mac, _ios)
+                                 ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFAvailability.h:59:34: note: expanded from macro 'CF_AVAILABLE'
+#define CF_AVAILABLE(_mac, _ios) __OSX_AVAILABLE_STARTING(__MAC_##_mac, __IPHONE_##_ios)
+                                 ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/usr/include/Availability.h:175:50: note: expanded from macro '__OSX_AVAILABLE_STARTING'
+    #define __OSX_AVAILABLE_STARTING(_osx, _ios) __AVAILABILITY_INTERNAL##_ios
+                                                 ^
+<scratch space>:87:1: note: expanded from here
+__AVAILABILITY_INTERNAL__IPHONE_
+^
+In file included from umbrella.h:787:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WatchConnectivity.h:13:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h:30:24: error: expected identifier or '('
+NS_CLASS_AVAILABLE_IOS(9.0)
+                       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h:296:61: note: expanded from macro 'NS_CLASS_AVAILABLE_IOS'
+#define NS_CLASS_AVAILABLE_IOS(_ios) NS_CLASS_AVAILABLE(NA, _ios)
+                                                            ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h:288:98: note: expanded from macro 'NS_CLASS_AVAILABLE'
+#define NS_CLASS_AVAILABLE(_mac, _ios) __attribute__((visibility("default"))) NS_AVAILABLE(_mac, _ios)
+                                                                                                 ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h:249:53: note: expanded from macro 'NS_AVAILABLE'
+#define NS_AVAILABLE(_mac, _ios) CF_AVAILABLE(_mac, _ios)
+                                                    ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFAvailability.h:59:84: note: expanded from macro 'CF_AVAILABLE'
+#define CF_AVAILABLE(_mac, _ios) __OSX_AVAILABLE_STARTING(__MAC_##_mac, __IPHONE_##_ios)
+                                                                                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/usr/include/Availability.h:175:75: note: expanded from macro '__OSX_AVAILABLE_STARTING'
+    #define __OSX_AVAILABLE_STARTING(_osx, _ios) __AVAILABILITY_INTERNAL##_ios
+                                                                          ^
+In file included from umbrella.h:787:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WatchConnectivity.h:13:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h:37:4: error: expected a type
++ (WCSession *)defaultSession;
+   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h:37:1: error: missing context for method declaration
++ (WCSession *)defaultSession;
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h:40:1: error: expected method body
+- (instancetype)init NS_UNAVAILABLE;
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h:43:1: error: unexpected '@' in program
+@property (nonatomic, weak, nullable) id <WCSessionDelegate> delegate;
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h:46:1: error: missing context for method declaration
+- (void)activateSession;
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h:49:1: error: expected method body
+@property (nonatomic, readonly) WCSessionActivationState activationState __IOS_AVAILABLE(9.3) __WATCHOS_AVAILABLE(2.2);
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h:58:1: error: unexpected '@' in program
+@property (nonatomic, readonly, getter=isPaired) BOOL paired __WATCHOS_UNAVAILABLE;
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h:61:1: error: unexpected '@' in program
+@property (nonatomic, readonly, getter=isWatchAppInstalled) BOOL watchAppInstalled __WATCHOS_UNAVAILABLE;
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h:64:1: error: unexpected '@' in program
+@property (nonatomic, readonly, getter=isComplicationEnabled) BOOL complicationEnabled __WATCHOS_UNAVAILABLE;
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h:67:1: error: unexpected '@' in program
+@property (nonatomic, readonly, nullable) NSURL *watchDirectoryURL __WATCHOS_UNAVAILABLE;
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h:77:1: error: unexpected '@' in program
+@property (nonatomic, readonly, getter=isReachable) BOOL reachable;
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h:80:1: error: unexpected '@' in program
+@property (nonatomic, readonly) BOOL iOSDeviceNeedsUnlockAfterRebootForReachability __IOS_UNAVAILABLE __WATCHOS_AVAILABLE(2.0);
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h:83:1: error: missing context for method declaration
+- (void)sendMessage:(NSDictionary<NSString *, id> *)message replyHandler:(nullable void (^)(NSDictionary<NSString *, id> *replyMessage))replyHandler errorHandler:(nullable void (^)(NSError *error))errorHandler;
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h:86:1: error: expected method body
+- (void)sendMessageData:(NSData *)data replyHandler:(nullable void (^)(NSData *replyMessageData))replyHandler errorHandler:(nullable void (^)(NSError *error))errorHandler;
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h:97:1: error: unexpected '@' in program
+@property (nonatomic, readonly, copy) NSDictionary<NSString *, id> *applicationContext;
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h:98:1: error: missing context for method declaration
+- (BOOL)updateApplicationContext:(NSDictionary<NSString *, id> *)applicationContext error:(NSError **)error;
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h:101:1: error: expected method body
+@property (nonatomic, readonly, copy) NSDictionary<NSString *, id> *receivedApplicationContext;
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h:106:1: error: missing context for method declaration
+- (WCSessionUserInfoTransfer *)transferUserInfo:(NSDictionary<NSString *, id> *)userInfo;
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h:109:1: error: expected method body
+- (WCSessionUserInfoTransfer *)transferCurrentComplicationUserInfo:(NSDictionary<NSString *, id> *)userInfo __WATCHOS_UNAVAILABLE;
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h:112:1: error: unexpected '@' in program
+@property (nonatomic, readonly, copy) NSArray<WCSessionUserInfoTransfer *> *outstandingUserInfoTransfers;
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h:116:1: error: missing context for method declaration
+- (WCSessionFileTransfer *)transferFile:(NSURL *)file metadata:(nullable NSDictionary<NSString *, id> *)metadata;
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h:119:1: error: expected method body
+@property (nonatomic, readonly, copy) NSArray<WCSessionFileTransfer *> *outstandingFileTransfers;
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h:121:1: error: '@end' must appear in an Objective-C context
+@end
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h:135:18: error: expected a type
+- (void)session:(WCSession *)session activationDidCompleteWithState:(WCSessionActivationState)activationState error:(nullable NSError *)error __IOS_AVAILABLE(9.3) __WATCHOS_AVAILABLE(2.2);
+                 ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h:140:35: error: expected a type
+- (void)sessionDidBecomeInactive:(WCSession *)session __IOS_AVAILABLE(9.3) __WATCHOS_UNAVAILABLE;
+                                  ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h:143:31: error: expected a type
+- (void)sessionDidDeactivate:(WCSession *)session __IOS_AVAILABLE(9.3) __WATCHOS_UNAVAILABLE;
+                              ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h:146:37: error: expected a type
+- (void)sessionWatchStateDidChange:(WCSession *)session __WATCHOS_UNAVAILABLE;
+                                    ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h:151:39: error: expected a type
+- (void)sessionReachabilityDidChange:(WCSession *)session;
+                                      ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h:154:18: error: expected a type
+- (void)session:(WCSession *)session didReceiveMessage:(NSDictionary<NSString *, id> *)message;
+                 ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h:157:18: error: expected a type
+- (void)session:(WCSession *)session didReceiveMessage:(NSDictionary<NSString *, id> *)message replyHandler:(void(^)(NSDictionary<NSString *, id> *replyMessage))replyHandler;
+                 ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h:160:18: error: expected a type
+- (void)session:(WCSession *)session didReceiveMessageData:(NSData *)messageData;
+                 ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h:163:18: error: expected a type
+- (void)session:(WCSession *)session didReceiveMessageData:(NSData *)messageData replyHandler:(void(^)(NSData *replyMessageData))replyHandler;
+                 ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h:169:18: error: expected a type
+- (void)session:(WCSession *)session didReceiveApplicationContext:(NSDictionary<NSString *, id> *)applicationContext;
+                 ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h:172:18: error: expected a type
+- (void)session:(WCSession * __nonnull)session didFinishUserInfoTransfer:(WCSessionUserInfoTransfer *)userInfoTransfer error:(nullable NSError *)error;
+                 ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h:175:18: error: expected a type
+- (void)session:(WCSession *)session didReceiveUserInfo:(NSDictionary<NSString *, id> *)userInfo;
+                 ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h:178:18: error: expected a type
+- (void)session:(WCSession *)session didFinishFileTransfer:(WCSessionFileTransfer *)fileTransfer error:(nullable NSError *)error;
+                 ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h:181:18: error: expected a type
+- (void)session:(WCSession *)session didReceiveFile:(WCSessionFile *)file;
+                 ^
+In file included from umbrella.h:787:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WatchConnectivity.h:14:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSessionFile.h:14:1: error: pasting formed '__IPHONE_9.0', an invalid preprocessing token
+NS_CLASS_AVAILABLE_IOS(9.0)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h:296:38: note: expanded from macro 'NS_CLASS_AVAILABLE_IOS'
+#define NS_CLASS_AVAILABLE_IOS(_ios) NS_CLASS_AVAILABLE(NA, _ios)
+                                     ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h:288:79: note: expanded from macro 'NS_CLASS_AVAILABLE'
+#define NS_CLASS_AVAILABLE(_mac, _ios) __attribute__((visibility("default"))) NS_AVAILABLE(_mac, _ios)
+                                                                              ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h:249:34: note: expanded from macro 'NS_AVAILABLE'
+#define NS_AVAILABLE(_mac, _ios) CF_AVAILABLE(_mac, _ios)
+                                 ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFAvailability.h:59:82: note: expanded from macro 'CF_AVAILABLE'
+#define CF_AVAILABLE(_mac, _ios) __OSX_AVAILABLE_STARTING(__MAC_##_mac, __IPHONE_##_ios)
+                                                                                 ^
+In file included from umbrella.h:787:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WatchConnectivity.h:14:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSessionFile.h:14:1: error: unknown type name '__AVAILABILITY_INTERNAL__IPHONE_'
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h:296:38: note: expanded from macro 'NS_CLASS_AVAILABLE_IOS'
+#define NS_CLASS_AVAILABLE_IOS(_ios) NS_CLASS_AVAILABLE(NA, _ios)
+                                     ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h:288:79: note: expanded from macro 'NS_CLASS_AVAILABLE'
+#define NS_CLASS_AVAILABLE(_mac, _ios) __attribute__((visibility("default"))) NS_AVAILABLE(_mac, _ios)
+                                                                              ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h:249:34: note: expanded from macro 'NS_AVAILABLE'
+#define NS_AVAILABLE(_mac, _ios) CF_AVAILABLE(_mac, _ios)
+                                 ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFAvailability.h:59:34: note: expanded from macro 'CF_AVAILABLE'
+#define CF_AVAILABLE(_mac, _ios) __OSX_AVAILABLE_STARTING(__MAC_##_mac, __IPHONE_##_ios)
+                                 ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/usr/include/Availability.h:175:50: note: expanded from macro '__OSX_AVAILABLE_STARTING'
+    #define __OSX_AVAILABLE_STARTING(_osx, _ios) __AVAILABILITY_INTERNAL##_ios
+                                                 ^
+<scratch space>:87:1: note: expanded from here
+__AVAILABILITY_INTERNAL__IPHONE_
+^
+In file included from umbrella.h:787:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WatchConnectivity.h:14:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSessionFile.h:14:24: error: expected identifier or '('
+NS_CLASS_AVAILABLE_IOS(9.0)
+                       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h:296:61: note: expanded from macro 'NS_CLASS_AVAILABLE_IOS'
+#define NS_CLASS_AVAILABLE_IOS(_ios) NS_CLASS_AVAILABLE(NA, _ios)
+                                                            ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h:288:98: note: expanded from macro 'NS_CLASS_AVAILABLE'
+#define NS_CLASS_AVAILABLE(_mac, _ios) __attribute__((visibility("default"))) NS_AVAILABLE(_mac, _ios)
+                                                                                                 ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h:249:53: note: expanded from macro 'NS_AVAILABLE'
+#define NS_AVAILABLE(_mac, _ios) CF_AVAILABLE(_mac, _ios)
+                                                    ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFAvailability.h:59:84: note: expanded from macro 'CF_AVAILABLE'
+#define CF_AVAILABLE(_mac, _ios) __OSX_AVAILABLE_STARTING(__MAC_##_mac, __IPHONE_##_ios)
+                                                                                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/usr/include/Availability.h:175:75: note: expanded from macro '__OSX_AVAILABLE_STARTING'
+    #define __OSX_AVAILABLE_STARTING(_osx, _ios) __AVAILABILITY_INTERNAL##_ios
+                                                                          ^
+In file included from umbrella.h:787:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WatchConnectivity.h:14:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSessionFile.h:17:1: error: unexpected '@' in program
+@property (nonatomic, copy, readonly, nullable) NSDictionary<NSString *, id> *metadata;
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSessionFile.h:18:1: error: '@end' must appear in an Objective-C context
+@end
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSessionFile.h:22:1: error: pasting formed '__IPHONE_9.0', an invalid preprocessing token
+NS_CLASS_AVAILABLE_IOS(9.0)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h:296:38: note: expanded from macro 'NS_CLASS_AVAILABLE_IOS'
+#define NS_CLASS_AVAILABLE_IOS(_ios) NS_CLASS_AVAILABLE(NA, _ios)
+                                     ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h:288:79: note: expanded from macro 'NS_CLASS_AVAILABLE'
+#define NS_CLASS_AVAILABLE(_mac, _ios) __attribute__((visibility("default"))) NS_AVAILABLE(_mac, _ios)
+                                                                              ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h:249:34: note: expanded from macro 'NS_AVAILABLE'
+#define NS_AVAILABLE(_mac, _ios) CF_AVAILABLE(_mac, _ios)
+                                 ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFAvailability.h:59:82: note: expanded from macro 'CF_AVAILABLE'
+#define CF_AVAILABLE(_mac, _ios) __OSX_AVAILABLE_STARTING(__MAC_##_mac, __IPHONE_##_ios)
+                                                                                 ^
+In file included from umbrella.h:787:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WatchConnectivity.h:14:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSessionFile.h:22:1: error: unknown type name '__AVAILABILITY_INTERNAL__IPHONE_'
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h:296:38: note: expanded from macro 'NS_CLASS_AVAILABLE_IOS'
+#define NS_CLASS_AVAILABLE_IOS(_ios) NS_CLASS_AVAILABLE(NA, _ios)
+                                     ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h:288:79: note: expanded from macro 'NS_CLASS_AVAILABLE'
+#define NS_CLASS_AVAILABLE(_mac, _ios) __attribute__((visibility("default"))) NS_AVAILABLE(_mac, _ios)
+                                                                              ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h:249:34: note: expanded from macro 'NS_AVAILABLE'
+#define NS_AVAILABLE(_mac, _ios) CF_AVAILABLE(_mac, _ios)
+                                 ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFAvailability.h:59:34: note: expanded from macro 'CF_AVAILABLE'
+#define CF_AVAILABLE(_mac, _ios) __OSX_AVAILABLE_STARTING(__MAC_##_mac, __IPHONE_##_ios)
+                                 ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/usr/include/Availability.h:175:50: note: expanded from macro '__OSX_AVAILABLE_STARTING'
+    #define __OSX_AVAILABLE_STARTING(_osx, _ios) __AVAILABILITY_INTERNAL##_ios
+                                                 ^
+<scratch space>:87:1: note: expanded from here
+__AVAILABILITY_INTERNAL__IPHONE_
+^
+In file included from umbrella.h:787:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WatchConnectivity.h:14:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSessionFile.h:22:24: error: expected identifier or '('
+NS_CLASS_AVAILABLE_IOS(9.0)
+                       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h:296:61: note: expanded from macro 'NS_CLASS_AVAILABLE_IOS'
+#define NS_CLASS_AVAILABLE_IOS(_ios) NS_CLASS_AVAILABLE(NA, _ios)
+                                                            ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h:288:98: note: expanded from macro 'NS_CLASS_AVAILABLE'
+#define NS_CLASS_AVAILABLE(_mac, _ios) __attribute__((visibility("default"))) NS_AVAILABLE(_mac, _ios)
+                                                                                                 ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h:249:53: note: expanded from macro 'NS_AVAILABLE'
+#define NS_AVAILABLE(_mac, _ios) CF_AVAILABLE(_mac, _ios)
+                                                    ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFAvailability.h:59:84: note: expanded from macro 'CF_AVAILABLE'
+#define CF_AVAILABLE(_mac, _ios) __OSX_AVAILABLE_STARTING(__MAC_##_mac, __IPHONE_##_ios)
+                                                                                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/usr/include/Availability.h:175:75: note: expanded from macro '__OSX_AVAILABLE_STARTING'
+    #define __OSX_AVAILABLE_STARTING(_osx, _ios) __AVAILABILITY_INTERNAL##_ios
+                                                                          ^
+In file included from umbrella.h:787:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WatchConnectivity.h:14:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSessionFile.h:25:1: error: unexpected '@' in program
+@property (nonatomic, readonly, getter=isTransferring) BOOL transferring;
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSessionFile.h:26:1: error: missing context for method declaration
+- (void)cancel;
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSessionFile.h:27:1: error: expected method body
+@end
+^
+In file included from umbrella.h:787:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WatchConnectivity.h:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSessionUserInfoTransfer.h:14:1: error: pasting formed '__IPHONE_9.0', an invalid preprocessing token
+NS_CLASS_AVAILABLE_IOS(9.0)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h:296:38: note: expanded from macro 'NS_CLASS_AVAILABLE_IOS'
+#define NS_CLASS_AVAILABLE_IOS(_ios) NS_CLASS_AVAILABLE(NA, _ios)
+                                     ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h:288:79: note: expanded from macro 'NS_CLASS_AVAILABLE'
+#define NS_CLASS_AVAILABLE(_mac, _ios) __attribute__((visibility("default"))) NS_AVAILABLE(_mac, _ios)
+                                                                              ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h:249:34: note: expanded from macro 'NS_AVAILABLE'
+#define NS_AVAILABLE(_mac, _ios) CF_AVAILABLE(_mac, _ios)
+                                 ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFAvailability.h:59:82: note: expanded from macro 'CF_AVAILABLE'
+#define CF_AVAILABLE(_mac, _ios) __OSX_AVAILABLE_STARTING(__MAC_##_mac, __IPHONE_##_ios)
+                                                                                 ^
+In file included from umbrella.h:787:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WatchConnectivity.h:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSessionUserInfoTransfer.h:14:1: error: unknown type name '__AVAILABILITY_INTERNAL__IPHONE_'
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h:296:38: note: expanded from macro 'NS_CLASS_AVAILABLE_IOS'
+#define NS_CLASS_AVAILABLE_IOS(_ios) NS_CLASS_AVAILABLE(NA, _ios)
+                                     ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h:288:79: note: expanded from macro 'NS_CLASS_AVAILABLE'
+#define NS_CLASS_AVAILABLE(_mac, _ios) __attribute__((visibility("default"))) NS_AVAILABLE(_mac, _ios)
+                                                                              ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h:249:34: note: expanded from macro 'NS_AVAILABLE'
+#define NS_AVAILABLE(_mac, _ios) CF_AVAILABLE(_mac, _ios)
+                                 ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFAvailability.h:59:34: note: expanded from macro 'CF_AVAILABLE'
+#define CF_AVAILABLE(_mac, _ios) __OSX_AVAILABLE_STARTING(__MAC_##_mac, __IPHONE_##_ios)
+                                 ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/usr/include/Availability.h:175:50: note: expanded from macro '__OSX_AVAILABLE_STARTING'
+    #define __OSX_AVAILABLE_STARTING(_osx, _ios) __AVAILABILITY_INTERNAL##_ios
+                                                 ^
+<scratch space>:87:1: note: expanded from here
+__AVAILABILITY_INTERNAL__IPHONE_
+^
+In file included from umbrella.h:787:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WatchConnectivity.h:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSessionUserInfoTransfer.h:14:24: error: expected identifier or '('
+NS_CLASS_AVAILABLE_IOS(9.0)
+                       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h:296:61: note: expanded from macro 'NS_CLASS_AVAILABLE_IOS'
+#define NS_CLASS_AVAILABLE_IOS(_ios) NS_CLASS_AVAILABLE(NA, _ios)
+                                                            ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h:288:98: note: expanded from macro 'NS_CLASS_AVAILABLE'
+#define NS_CLASS_AVAILABLE(_mac, _ios) __attribute__((visibility("default"))) NS_AVAILABLE(_mac, _ios)
+                                                                                                 ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h:249:53: note: expanded from macro 'NS_AVAILABLE'
+#define NS_AVAILABLE(_mac, _ios) CF_AVAILABLE(_mac, _ios)
+                                                    ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFAvailability.h:59:84: note: expanded from macro 'CF_AVAILABLE'
+#define CF_AVAILABLE(_mac, _ios) __OSX_AVAILABLE_STARTING(__MAC_##_mac, __IPHONE_##_ios)
+                                                                                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/usr/include/Availability.h:175:75: note: expanded from macro '__OSX_AVAILABLE_STARTING'
+    #define __OSX_AVAILABLE_STARTING(_osx, _ios) __AVAILABILITY_INTERNAL##_ios
+                                                                          ^
+In file included from umbrella.h:787:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WatchConnectivity.h:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSessionUserInfoTransfer.h:17:1: error: unexpected '@' in program
+@property (nonatomic, readonly, copy) NSDictionary<NSString *, id> *userInfo;
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSessionUserInfoTransfer.h:18:1: error: unexpected '@' in program
+@property (nonatomic, readonly, getter=isTransferring) BOOL transferring;
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSessionUserInfoTransfer.h:19:1: error: missing context for method declaration
+- (void)cancel;
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSessionUserInfoTransfer.h:20:1: error: expected method body
+@end
+^
+62 errors generated.
